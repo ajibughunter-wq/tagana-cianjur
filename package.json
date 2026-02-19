@@ -1,0 +1,22 @@
+{
+  "name": "tagana-website",
+  "version": "1.0.0",
+  "description": "Website resmi Tagana - Taman Gantung Nusantara",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "build": "tailwindcss build -i input.css -o dist/output.css",
+    "preview": "http-server -p 8080"
+  },
+  "keywords": ["tourism", "indonesia", "nature", "adventure"],
+  "author": "Tagana Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
